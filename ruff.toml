@@ -1,0 +1,6 @@
+ignore = [
+    "E501", # Ignore line length violations
+    "E741" # Ignore ambiguous variable names
+]
+
+extend-exclude = ["typedstream"]
