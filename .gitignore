@@ -4,6 +4,7 @@
 *.tar
 *.json
 *.pdf
+*.html
 
 ## Generated ##
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,linux,vim,intellij,sublimetext,python,node,nextjs,windows

@@ -33,3 +33,7 @@ lint-python-type:
 
 lint-python-poetry:
     poetry check
+
+# Run a program with Python in the environment
+run script *args:
+    poetry run python {{script}} {{args}}
