@@ -523,6 +523,20 @@ files = [
 PyMuPDFb = "1.24.6"
 
 [[package]]
+name = "pymupdf4llm"
+version = "0.0.8"
+description = "PyMuPDF Utilities for LLM/RAG"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pymupdf4llm-0.0.8-py3-none-any.whl", hash = "sha256:752a4df0991de966dcddd04145cd85c3b3fff8948e21d08c6f2d7c110b79df1f"},
+    {file = "pymupdf4llm-0.0.8.tar.gz", hash = "sha256:51f9df2048fa85485724fb88e4c1d7cf5a3e6919562019f243aae625aa1fb34b"},
+]
+
+[package.dependencies]
+pymupdf = ">=1.24.2"
+
+[[package]]
 name = "pymupdfb"
 version = "1.24.6"
 description = "MuPDF shared libraries for PyMuPDF."
@@ -648,4 +662,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "a785e12ae3354efaeae620771e063cf5a716e61d842a0a7df1fff2fb405bc7f4"
+content-hash = "03b106938af4dfc3434cf1d07d29a16beb430f563bc31000123e344c6a61d9ea"
